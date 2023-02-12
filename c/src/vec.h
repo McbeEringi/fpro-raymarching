@@ -19,11 +19,11 @@ float mix(float a,float b,float x);
 vec_t vmix(vec_t a,vec_t b,float x);
 float smoothstep(float a,float b,float x);
 float dot(vec_t a,vec_t b);
+vec_t cross(vec_t a,vec_t b);
 float fract(float a);
 vec_t vfract(vec_t a);
 vec_t vfloor(vec_t a);
 float length(vec_t a);
 vec_t normalize(vec_t a);
-vec_t cross(vec_t a,vec_t b);
 
 #endif
