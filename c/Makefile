@@ -8,7 +8,7 @@ endif
 
 all:make render convert
 make:
-	$(CC) $(SRCS) -o main.out
+	$(CC) $(SRCS) -lm -o main.out
 render:make
 	./main.out 256 128 64
 convert:
