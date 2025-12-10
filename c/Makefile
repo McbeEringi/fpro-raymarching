@@ -3,7 +3,7 @@ SRCS:=main.c renderer.c vec.c
 SRCS:=$(addprefix src/,$(SRCS))
 IMGMGK:=convert
 ifdef OS
-IMGMGK:=magick convert
+IMGMGK:=magick
 endif
 
 all:make render convert
